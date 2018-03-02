@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+<div class="topnav">
+    <div class="navbar">
+        <a class="active navlink" href="#home">Home</a>
+        <a class="navlink" href="#news">Black cocks</a>
+        <a class="navlink" href="#contact">Hoes in your neighbourhood</a>
+        <a class="navlink" href="#about">Anal?</a>
+    </div>
+</div>
+
+<div class="header">
+    <img src="img/test.png" alt="Praise">
+    <p><font color="#ff69b4">Dit is echt tof Mats</font></p>
+
+</div>
+
+<div class="body">
+    <button type="button" >Clikerino cappacino </button>
+    <h1><font color="white">Wat is uw naam?</font></h1>
+    <smaller><font color="white">we stelen je moeder</smaller>
+    <p id="full_name"></p>
+
+    <div>
+        First name:<br>
+        <input id="first_name" type="text" name="firstname"><br>
+        Last name:<br>
+        <input id="last_name" type="text" name="lastname">
+        <br><br>
+        <button onclick="myfunction()" type="button" >Submit </button>
+
+        <script>
+//        first_name+last_name
+       function myfunction(){
+           var first_name = document.getElementById("first_name").value;
+           var last_name = document.getElementById("last_name").value;
+           document.getElementById("full_name").innerHTML = first_name + " " + last_name;
+       }
+
+        </script>
+    </div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
