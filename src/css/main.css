@@ -7,17 +7,15 @@ html {
 body {
     margin: 0;
     Background-color: #696969;
-
 }
 
+/*NAVBAR*/
 .navbar{
-    margin-bottom:0px;
+    margin-bottom:0;
     width: 100%;
-
 }
 
 .container-fluid{
-
     padding-left:0;
     padding-right:0;
 }
@@ -26,17 +24,17 @@ body {
     padding-left:15px;
 }
 
+/*INTRO*/
 .intro {
     display: block;
     margin: auto;
     box-sizing: border-box;
     text-align: center;
     background-color: #6811ff;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 300px;
     border-bottom-right-radius: 300px;
-
 }
 
 .intro p{
@@ -44,16 +42,20 @@ body {
     color:pink;
 }
 
+/*NOBODY*/
 .nobody {
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-
 }
 .jumbotron {
-    background-image: linear-gradient(rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("../img/diablo.jpg");
-    background-size: cover;
-    padding:28rem 10rem;
+    background-image: linear-gradient(rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("Diablo.jpg");
+    background-size: auto 100%;
+    height: 600px;
+    max-height: 600px;
+}
 
+.jumbotron  h1,p{
+    color: white;
 }
 
